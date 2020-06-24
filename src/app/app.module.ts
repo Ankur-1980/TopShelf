@@ -18,7 +18,6 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 
 import { TheFeedPostsComponent } from './components/the-feed/the-feed-posts/the-feed-posts.component';
 import { QuizModule } from './components/quiz/quiz.module';
-import { ImageUploadModule } from './components/image-upload/image-upload.module';
 
 @NgModule({
   declarations: [
@@ -42,7 +41,6 @@ import { ImageUploadModule } from './components/image-upload/image-upload.module
     PreferencesModule,
     UserRecipesModule,
     QuizModule,
-    ImageUploadModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
