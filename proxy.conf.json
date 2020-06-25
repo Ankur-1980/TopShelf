@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://topshelfdrinks.herokuapp.com/",
+    "target": "https://topshelfdrinks.herokuapp.com",
     "secure": false
   }
 }

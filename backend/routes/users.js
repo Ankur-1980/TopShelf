@@ -6,6 +6,7 @@ const verifyToken = require("../services/verifyToken");
 
 // get logged in user
 users.get("/", verifyToken, (req, res) => {
+  console.log("hello from backend");
   database
     .query("SELECT * FROM users WHERE user_id = $1::UUID", [req.userId])
     .then((response) => {
